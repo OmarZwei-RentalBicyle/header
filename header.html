@@ -1,0 +1,21 @@
+import React from "react";
+
+const HeaderImagePage = () => {
+  return (
+    <div className="w-full h-screen">
+      {/* Header */}
+      <header className="w-full h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://source.unsplash.com/random/1600x400')" }}>
+        <div className="w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <h1 className="text-white text-4xl font-bold">Welcome to My Website</h1>
+        </div>
+      </header>
+      
+      {/* Content */}
+      <main className="p-6">
+        <p className="text-lg">This is a simple webpage with a header image.</p>
+      </main>
+    </div>
+  );
+};
+
+export default HeaderImagePage;
